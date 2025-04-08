@@ -1,0 +1,10 @@
+Swal.fire({
+    title: 'Catatan Disimpan!',
+    icon: 'success',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  }); 
