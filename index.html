@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="app-header">
+        <h1 class="animate__animated animate__fadeIn">Notes App</h1>
+      </header>
+      <main class="app-main">
+        <section id="note-form-container"></section>
+        <div class="notes-actions">
+          <button id="toggle-archive-btn" class="action-btn">
+            Show Archived Notes
+          </button>
+        </div>
+        <section id="notes-container"></section>
+        <section id="archived-notes-container" style="display: none"></section>
+      </main>
+      <toast-notification></toast-notification>
+    </div>
+  </body>
+</html>
